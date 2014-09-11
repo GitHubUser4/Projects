@@ -34,6 +34,7 @@ public class SquareEq {
 
         // Если D = 0 => одно решение
         if (abs(D) < DELTA) {
+            System.out.println(-b / (2 * a));
             return new double[]{-b / (2 * a)};
         }
 
