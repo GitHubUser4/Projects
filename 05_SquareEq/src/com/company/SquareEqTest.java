@@ -11,11 +11,6 @@ public class SquareEqTest {
 
     public static final double DELTA = 0.000001;
 
-    public static void main(String[] args) {
-        test1();
-    }
-
-
     /**
      * Первый (самый простой) тест
      */
@@ -24,6 +19,10 @@ public class SquareEqTest {
         // assertEquals( ожидаемое_значение,
         //              вычисленное значение )
         //              сообщение_если_значения_не_равны, ..., ...
+        // assertArrayEquals (Сообщение,
+        //                    ожидаемое_значение,
+        //                    вычисленное значение,
+        //                    дельта)
         // a*x^2 + b*x + c = 0
         assertArrayEquals("x^2 = 0", new double[]{0.0}, SquareEq.solve(1.0, 0.0, 0.0), DELTA);
     }
@@ -100,4 +99,25 @@ public class SquareEqTest {
                 SquareEq.solve(0.0, 0.0, 0.0), DELTA);
 
     }
+
+    /**
+     * Вырожденный случай: b = 0, c = 0
+     */
+    @Test(expected = AnyXException.class)
+    public void ZeroBZeroC() {
+        assertArrayEquals("-5x^2 = 0",
+                new double[]{0.0},
+                SquareEq.solve(-5.0, 0.0, 0.0), DELTA);
+    }
+
+    /**
+     * Вырожденный случай: a = 0, c = 0
+     */
+    @Test(expected = AnyXException.class)
+    public void ZeroAZeroC() {
+        assertArrayEquals("6x = 0",
+                new double[]{0.0},
+                SquareEq.solve(0.0, 6.0, 0.0), DELTA);
+    }
+
 }
