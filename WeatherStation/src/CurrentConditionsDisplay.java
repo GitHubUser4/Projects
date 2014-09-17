@@ -17,6 +17,7 @@ public class CurrentConditionsDisplay implements IObserverable, IDisplayElementa
         this.temperature = temperature;
         this.humidity = humidity;
         display();
+
     }
 
     public void display() {
