@@ -103,7 +103,7 @@ public class SquareEqTest {
     /**
      * Вырожденный случай: b = 0, c = 0
      */
-    @Test(expected = AnyXException.class)
+    @Test
     public void ZeroBZeroC() {
         assertArrayEquals("-5x^2 = 0",
                 new double[]{0.0},
@@ -113,7 +113,7 @@ public class SquareEqTest {
     /**
      * Вырожденный случай: a = 0, c = 0
      */
-    @Test(expected = AnyXException.class)
+    @Test
     public void ZeroAZeroC() {
         assertArrayEquals("6x = 0",
                 new double[]{0.0},
