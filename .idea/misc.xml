@@ -3,6 +3,9 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" />
+=======
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -25,5 +28,6 @@
   <component name="SvnConfiguration">
     <configuration>C:\Users\Nehrist\AppData\Roaming\Subversion</configuration>
   </component>
+>>>>>>> 43b1c6f6f67d234dc73260454ce512001dd3edcf
 </project>
 
