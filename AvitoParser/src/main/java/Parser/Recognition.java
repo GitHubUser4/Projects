@@ -1,9 +1,16 @@
 /*  1:   */ package Parser;
 /*  2:   */ 
-/*  3:   */ import java.io.File;
-/*  4:   */ import net.sourceforge.tess4j.Tesseract;
-/*  5:   */ import net.sourceforge.tess4j.TesseractException;
-/*  6:   */ import org.apache.log4j.Logger;
+/*  3:   */
+
+import net.sourceforge.tess4j.Tesseract;
+import net.sourceforge.tess4j.TesseractException;
+import org.apache.log4j.Logger;
+
+import java.io.File;
+
+/*  4:   */
+/*  5:   */
+/*  6:   */
 /*  7:   */ 
 /*  8:   */ public class Recognition
 /*  9:   */ {
@@ -43,9 +50,3 @@
 /* 43:44 */     return number;
 /* 44:   */   }
 /* 45:   */ }
-
-
-/* Location:           C:\AvitoParserRecovery\target\classes\
- * Qualified Name:     Parser.Recognition
- * JD-Core Version:    0.7.0.1
- */
