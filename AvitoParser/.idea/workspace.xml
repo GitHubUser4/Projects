@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9cef165-cab4-4c15-bd49-1a249dcdd058" name="Default" comment="Добавил проект AvitoParser">
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\description.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\Test_3.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\Test_3.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_3\src\com\company\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_4\Test_4.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\SVPopov\IdeaProjects\Projects\Test_4\src\com\company\Main.java" afterPath="" />
-    </list>
+    <list default="true" id="c9cef165-cab4-4c15-bd49-1a249dcdd058" name="Default" comment="Убрал комментарий из класса Recognition" />
     <ignored path="AvitoParser.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
@@ -60,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recognition.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Recognition.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Recognition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1020">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.45600858" vertical-offset="0" max-vertical-offset="932">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -73,7 +57,7 @@
       <file leaf-file-name="Translit.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Translit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="629">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
@@ -100,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvitoParser.iml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AvitoParser.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AvitoParser.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2918455" vertical-offset="0" max-vertical-offset="932">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
               <folding />
             </state>
@@ -175,9 +159,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Parser/DataBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/URLWork.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Parser/Recognition.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/Files.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/Recognition.java" />
       </list>
     </option>
   </component>
@@ -189,8 +173,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-76" />
-    <option name="y" value="32" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -558,12 +542,17 @@
       <workItem from="1412261552206" duration="1565000" />
       <workItem from="1412263685340" duration="300000" />
       <workItem from="1412319430742" duration="902000" />
-      <workItem from="1412322114026" duration="192000" />
+      <workItem from="1412322114026" duration="852000" />
     </task>
+    <task id="LOCAL-00001" summary="Убрал комментарий из класса Recognition">
+      <created>1412323277287</created>
+      <updated>1412323277287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2959000" />
+    <option name="totallyTimeSpent" value="3619000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -586,7 +575,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-76" y="32" width="1936" height="1066" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -602,6 +591,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42797494" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -613,7 +603,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27807486" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42797494" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30053475" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -633,7 +622,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Добавил проект AvitoParser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил проект AvitoParser" />
+    <MESSAGE value="Убрал комментарий из класса Recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал комментарий из класса Recognition" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -984,22 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Recognition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Translit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Parser/URLWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4471">
@@ -1018,8 +992,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AvitoParser.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2918455" vertical-offset="0" max-vertical-offset="932">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Translit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Recognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45600858" vertical-offset="0" max-vertical-offset="932">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
