@@ -8,7 +8,7 @@ public class ExampleThread extends Thread {
         for (int i = 0; i < 10; i++) {
             System.out.println(i + " " + getName());
             try {
-                sleep((long)(Math.random() * 1000));
+                sleep((long) (Math.random() * 5000));
             } catch (InterruptedException e) {}
         }
         System.out.println("= DONE: " + getName() + " =");
